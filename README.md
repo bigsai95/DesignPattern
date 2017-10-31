@@ -12,7 +12,7 @@
  - 轉接 Adapter
  - 橋接 Bridge
  - [組合 Composite]
- - [裝飾 Decorator] [php](decorator.php)
+ - [裝飾 Decorator]
  - [外觀 Facade]
  - [享元 Flyweight]
  - [代理 Proxy]
