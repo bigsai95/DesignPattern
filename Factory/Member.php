@@ -1,5 +1,5 @@
 <?php
-namespace SimpleFactory;
+namespace Factory;
 
 class Member extends abstractUser
 {

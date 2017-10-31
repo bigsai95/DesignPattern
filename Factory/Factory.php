@@ -1,5 +1,5 @@
 <?php
-namespace SimpleFactory;
+namespace Factory;
 
 class Factory {
     public static function build($type){
@@ -7,8 +7,8 @@ class Factory {
             case "Member":
                 return new Member();
                 break;
-            case "GoldMember":
-                return new GoldMember();
+            case "Designer":
+                return new Designer();
                 break;
         }
     }

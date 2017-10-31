@@ -1,11 +1,11 @@
 <?php
-namespace SimpleFactory;
+namespace Factory;
 
-class Member extends abstractUser
+class GoldMember extends abstractUser
 {
-    private $rate = 0.8;
+    private $rate = 0.5;
     public function say() {
-        return "I am a Member";
+        return "I am a Gold Card Member";
     }
 
     public function discount($price) {
