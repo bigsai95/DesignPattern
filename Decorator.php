@@ -1,7 +1,7 @@
 <?php
-include 'HelloDefault.php';
-include 'HiDefault.php';
-include 'Renderer.php';
+include 'Decorator/HelloDefault.php';
+include 'Decorator/HiDefault.php';
+include 'Decorator/Renderer.php';
 
 $format = new HelloDefault();
 $s = new Renderer($format);
