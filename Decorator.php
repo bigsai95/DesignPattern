@@ -1,16 +1,14 @@
 <?php
-include 'Decorator/HelloDefault.php';
-include 'Decorator/HiDefault.php';
-include 'Decorator/Renderer.php';
+include_once 'autoload.php';
 
-$format = new HelloDefault();
-$s = new Renderer($format);
+$format = new Decorator\HelloDefault();
+$s = new Decorator\Renderer($format);
 echo $s->display("abc");
 echo "\n";
 
 
-$format = new HiDefault();
-$s = new Renderer($format);
+$format = new Decorator\HiDefault();
+$s = new Decorator\Renderer($format);
 echo $s->display("abc");
 echo "\n";
 

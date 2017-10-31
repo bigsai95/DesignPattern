@@ -1,5 +1,5 @@
 <?php
-include_once 'IFormater.php';
+namespace Decorator;
 
 abstract class absFormater implements IFormater
 {

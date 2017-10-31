@@ -1,5 +1,5 @@
 <?php
-include_once 'absFormater.php';
+namespace Decorator;
 
 class HelloDefault extends absFormater
 {
